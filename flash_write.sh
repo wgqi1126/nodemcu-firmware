@@ -2,7 +2,7 @@
 
 port=/dev/cu.wchusbserial14610
 mode=dio
-bin=bin/nodemcu_float_master_20180410-0827.bin
+bin=$1
 
 cd $(dirname $0)
 
